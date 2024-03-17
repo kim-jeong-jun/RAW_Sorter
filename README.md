@@ -2,6 +2,13 @@
 Made for heavy camera users.
 RAW file sorting code written in Python.
 
+_THE PACKAGES BELOW ARE NEEDED!_
+os
+shutil
+tqdm
+time
+exifread
+
 ## Function
 1. This code gather all RAW image files(*.NEF, *.DNG, and *.JPG) in subfolder of your input folder.
 2. The sorted folder generates as the manner below. (Regards as EXIF file data.)
